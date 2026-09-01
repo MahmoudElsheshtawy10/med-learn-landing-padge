@@ -1,0 +1,26 @@
+@media (max-width: 992px) {
+    .hero-content { width: 100%; float: none; padding-left: 0; margin-bottom: 50px; text-align: center; }
+    .hero-image { width: 80%; float: none; margin: 0 auto; }
+    .hero-content h1 { font-size: 2.5rem; }
+    .stat-item h3 { font-size: 1.7rem; }
+    .feature-card, .course-card { width: 49%; margin-left: 2%; margin-bottom: 20px; }
+    .feature-card:nth-child(2n), .course-card:nth-child(2n) { margin-left: 0; }
+    .feature-card:last-child, .course-card:last-child { width: 100%; margin-left: 0; }
+    .newsletter-content, .newsletter-form { width: 100%; float: none; padding-left: 0; }
+    .newsletter-form { margin-top: 30px; }
+    .footer-brand, .footer-links { width: 100%; float: none; padding-left: 0; margin-bottom: 40px; }
+}
+
+@media (max-width: 768px) {
+    .nav-menu { display: none; position: absolute; top: 100%; right: 0; width: 100%; background-color: var(--white); border-bottom: 1px solid var(--border-color); padding: 20px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
+    .nav-menu.open { display: block; }
+    .nav-menu ul li { display: block; margin-left: 0; margin-bottom: 15px; }
+    .menu-toggle { display: inline-block; float: left; margin-right: 15px; margin-top: 5px; }
+    .header-actions .btn { display: none; }
+    .feature-card, .course-card, .testimonial-card { width: 100%; float: none; margin-left: 0 !important; margin-bottom: 25px; }
+    .section-header h2 { font-size: 1.8rem; }
+    .newsletter-wrapper { padding: 30px; }
+    .newsletter-form input { padding: 15px 15px 15px 120px; }
+    .newsletter-form .btn { padding: 9px 18px; }
+    .footer-bottom-container p, .social-links { float: none; text-align: center; margin-bottom: 10px; }
+}
